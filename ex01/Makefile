@@ -1,10 +1,10 @@
-NAME	= btc
+NAME	= RPN
 CXX		= c++
 CFLAGS	= -Wextra -Werror -Wall -std=c++98
 
 # Todos los .cpp en el directorio actual
-SRC		= main.cpp BitcoinExchange.cpp
-HPP		= BitcoinExchange.hpp
+SRC		= main.cpp RPN.cpp
+HPP		= RPN.hpp
 # Genera los .o correspondientes
 OBJ		= $(SRC:.cpp=.o)
 
