@@ -20,7 +20,10 @@ class Pmerge
 		~Pmerge();
 
 		void	merge(void);
-		int ford(void);
+		std::vector<std::pair<int, int> > ford(void);
+		void	jacob(std::vector<std::pair<int, int> > pairs);
+		std::vector<size_t> getJacobsthal(size_t size);
 };
+bool comparePairs(const std::pair<int, int>& a, const std::pair<int, int>& b);
 
 #endif
